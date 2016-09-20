@@ -1,8 +1,4 @@
-<html>
-	<head>
-	</head>
-	<body>
-		<?
+<?
 			$conexion = new mysqli("localhost","root","root",'programacionweb');
 			if($conexion->conect_errno){
 				echo "Error al connectar a la BBDD".
@@ -13,5 +9,3 @@
 				$conexion->set_charset("utf8");
 			}
 		?>
-	</body>
-</html>
